@@ -10,7 +10,7 @@ namespace swt_examen
     {
         public double Rente { get; set; }
     }
-    internal interface IRenteserver
+    public interface IRenteserver
     {
         event EventHandler<RenteEventArgs> RenteUpdateEvent;
         void SetRente(double nyRente);

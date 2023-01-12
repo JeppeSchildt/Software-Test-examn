@@ -7,7 +7,8 @@ namespace swt_examen
         public double AktuelRente { get; private set; }
         private IDisplay _display;
         private IRenteserver _renteserver;
-        // Her mangler constructor
+
+
         public BeregnYdelser(IDisplay display,IRenteserver renteserver)
         {
             renteserver.RenteUpdateEvent += HandleRenteEvent;
@@ -15,7 +16,15 @@ namespace swt_examen
             _renteserver = renteserver;
 
         }
-        // Her mangler en event handler
+        
+        private void HandleRenteEvent(object sender, RenteEventArgs e)
+        {
+            AktuelRente = e.Rente;
+
+            //Print til display?
+            string message = "Rent updated to: " + AktuelRente;
+            _display.print(message);
+        }
 
         // Denne metode er implementeret, men skal testes
         // Den bruger annuitetsformlen

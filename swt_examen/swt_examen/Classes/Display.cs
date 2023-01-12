@@ -8,5 +8,9 @@ namespace swt_examen
 {
     public class Display : IDisplay
     {
+        public void print(string message)
+        {
+            Console.WriteLine(message);
+        }
     }
 }

@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\BeregnYdelser.cs" />
+    <Compile Include="Classes\Display.cs" />
+    <Compile Include="Classes\GodkendLån.cs" />
+    <Compile Include="Classes\Printer.cs" />
+    <Compile Include="Interfaces\IBeregnYdelser.cs" />
+    <Compile Include="Interfaces\IDisplay.cs" />
+    <Compile Include="Interfaces\IGodkendLån.cs" />
+    <Compile Include="Interfaces\IPrinter.cs" />
+    <Compile Include="Interfaces\IRenteserver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Renteserver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

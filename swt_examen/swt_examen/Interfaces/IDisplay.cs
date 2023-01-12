@@ -8,5 +8,6 @@ namespace swt_examen
 {
     public interface IDisplay
     {
+        void print(string message);
     }
 }

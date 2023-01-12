@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace swt_examen
 {
 
-    internal class Renteserver : IRenteserver
+    public class Renteserver : IRenteserver
     {
         public event EventHandler<RenteEventArgs> RenteUpdateEvent;
         public double rente;
