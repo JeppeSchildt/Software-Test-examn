@@ -8,9 +8,9 @@ namespace swt_examen
         private IDisplay _display;
         private IRenteserver _renteserver;
         
-        public event EventHandler<RenteEventArgs> RenteUpdateEvent;
+        //public event EventHandler<RenteEventArgs> RenteUpdateEvent;
 
-        public double _renteEvent { get; set; }
+        //public double _renteEvent { get; set; }
 
 
         public BeregnYdelser(IDisplay display,IRenteserver renteserver)

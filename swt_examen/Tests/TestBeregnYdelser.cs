@@ -75,5 +75,11 @@ namespace Tests
             Assert.That(_uut.BeregnYdelse(10000, months), Is.LessThan(Double.MaxValue));
 
         }
+        [Test]
+        public void NoRentCalculation()
+        {
+            _renteServer.RenteUpdateEvent += Raise.EventWith(this, new RenteEventArgs() { Rente = 0 });
+            Assert.That(_uut.BeregnYdelse(10000, 10), Is.EqualTo(10000 / 10));
+        }
     }
 }

@@ -58,5 +58,27 @@ namespace Tests
             _kontoServer.ReceivedWithAnyArgs().BogførBeløb(default, default);
 
         }
+        [Test]
+        public void ConstructWithValues()
+        {
+            //Creating new unit under test w/ new constructor to test
+            IGodkendLån _uutv1 = new GodkendLån(_beregnYdelser, _printer, _display, _kontoServer,10000,12,25000,10000);
+            Assert.That(_uutv1.RådighedsBeløb, Is.EqualTo(15000));
+            Assert.That(_uutv1.Indtægt, Is.EqualTo(25000));
+            Assert.That(_uutv1.Størrelse, Is.EqualTo(10000));
+            Assert.That(_uutv1.Varighed, Is.EqualTo(12));
+        }
+        [Test]
+        public void ConstructCallPopRandom()
+        {
+            //Constructor does not pass values, so populate random should be called
+
+            Assert.That(_uut.RådighedsBeløb, Is.EqualTo(9000));
+            //Unable to check Recieved since it's not a substitute
+            //Not great alternative but proves concept.
+            
+            
+
+        }
     }
 }

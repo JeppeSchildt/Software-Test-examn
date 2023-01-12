@@ -29,6 +29,15 @@ namespace Tests
             Assert.That(sw.ToString(), Contains.Substring("Loan Approved at monthly cost: 200"));
 
         }
+
+        [Test]
+        public void UpdateRentPrint_Test()
+        {
+            _uut.UpdateRent(5.0);
+            Assert.That(sw.ToString(), Contains.Substring("Rent is updated to: 5"));
+        }
+
+
         [Test]
         public void GenericPrint_Test()
         {

@@ -10,9 +10,9 @@ namespace swt_examen
 {
     public class GodkendLån : IGodkendLån
     { //En instans per lån godkendelses request
-        private double Størrelse;
-        private int Varighed; //I måneder
-        private double Indtægt;
+        public double Størrelse { get; set; }
+        public int Varighed { get; set; } //I måneder
+        public double Indtægt { get; set; }
         public bool Godkendt { get; set; } //Repræsenterer om lånet er godkendt
         private double Udgifter;
         public double RådighedsBeløb { get; set; }
