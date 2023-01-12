@@ -10,10 +10,10 @@ namespace swt_examen
     public class Renteserver : IRenteserver
     {
         public event EventHandler<RenteEventArgs> RenteUpdateEvent;
-        public double rente;
+        public double rente { get; set; }
         public Renteserver()
         {
-            rente = 0.1; 
+            SetRente(0.1);
         }
         public void SetRente(double nyRente)
         {
@@ -22,7 +22,7 @@ namespace swt_examen
         }
         protected virtual void OnRenteUpdate()
         {
-            RenteUpdateEvent?.Invoke(this, new RenteEventArgs());
+            RenteUpdateEvent?.Invoke(this, new RenteEventArgs() { Rente=rente});
         }
     }
 }

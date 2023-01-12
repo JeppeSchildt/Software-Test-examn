@@ -1,0 +1,15 @@
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\obj\Debug\swt_examen.csproj.AssemblyReference.cache
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\obj\Debug\swt_examen.csproj.SuggestedBindingRedirects.cache
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\obj\Debug\swt_examen.csproj.CoreCompileInputs.cache
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\bin\Debug\swt_examen.exe.config
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\bin\Debug\swt_examen.exe
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\bin\Debug\swt_examen.pdb
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\obj\Debug\swt_examen.exe
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\obj\Debug\swt_examen.pdb
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\bin\Debug\Castle.Core.dll
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\bin\Debug\NSubstitute.dll
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\bin\Debug\Castle.Core.xml
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\bin\Debug\NSubstitute.xml
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\jepp5\Documents\GitHub\SWT_Examen\swt_examen\swt_examen\obj\Debug\swt_examen.csproj.CopyComplete

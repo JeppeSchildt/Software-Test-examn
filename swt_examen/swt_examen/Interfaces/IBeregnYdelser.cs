@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace swt_examen
 {
-    internal interface IBeregnYdelser
+
+    public interface IBeregnYdelser
     {
+        double AktuelRente { get; set; }
         double BeregnYdelse(double beløb, int varighed);
     }
 }
